@@ -53,6 +53,34 @@ a {
   border-radius: 2rem;
 }
 
+.locale-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.locale-switcher a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.2rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.locale-switcher a.active {
+  color: white;
+  border-color: transparent;
+  background: linear-gradient(180deg, var(--accent) 0%, var(--accent-dark) 100%);
+}
+
 .eyebrow {
   margin: 0 0 0.75rem;
   font-size: 0.78rem;
