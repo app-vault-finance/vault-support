@@ -190,6 +190,10 @@ h1 {
   padding: 1.5rem;
 }
 
+.privacy {
+  scroll-margin-top: 1.5rem;
+}
+
 .detail {
   display: grid;
   grid-template-columns: 1.1fr 1.4fr;
